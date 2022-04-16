@@ -1,0 +1,22 @@
+.advertising{
+    padding-block-start: 2rem;
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+
+
+.advertising img{
+    inline-size: calc(100%-1rem);
+    border: 1px solid red;
+}
+
+
+.advertising .image-2{
+    height: 31.25rem;
+    border: 2px solid yellowgreen;
+}

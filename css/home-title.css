@@ -1,0 +1,39 @@
+.homeTitle{
+    border: 1px solid yellow;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    block-size: 800px;
+    
+}
+
+.prueba{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.homeTitle .coverImage{
+    border: 1px solid red;
+    position: relative;
+    left: 0;
+    
+}
+
+.title{
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid olive;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+
+
+
+.homeTitle .coverImage img{
+    inline-size: 600px;
+    block-size: 700px;
+}
