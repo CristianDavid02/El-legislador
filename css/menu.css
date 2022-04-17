@@ -1,0 +1,72 @@
+@import "./menu-item.css";
+
+.main{
+    margin-block-end: 1rem;
+}
+.main-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container-main{
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    padding-block-start: 3rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid red; */
+    background: var(--white);
+    
+}
+
+/* .main-list a{
+    border: 1px solid orange;
+} */
+
+.main-title{
+    color: var(--gray60);
+    font: var(--bold);
+    font-size: 1.3rem;
+    /* border: 1px solid red; */
+    position: relative;
+   
+
+}
+
+.main-title::before, .main-title::after{
+
+    content: '';
+    position: absolute;
+    color: var(--gray60);
+    width: 3.125rem;
+    height: 0.1875rem;
+    background-color: currentColor;
+    top: 0.5em;
+    
+    
+}
+
+.main-title::before{
+    left: -3.5rem;
+}
+
+.main-title::after{
+    right: -3.5rem;
+}
+
+
+.main-global:hover .main-codigoTrabajo {
+    display: flex;
+}
+
+.main-global:hover .main-item a{
+    text-decoration: none;
+    box-shadow: inset 4px 0 0 var(--primary);
+    color: var(--gray60);
+    cursor: pointer;
+}
+

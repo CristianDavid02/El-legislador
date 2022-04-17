@@ -1,0 +1,28 @@
+
+
+.main-item a{
+    /* border: 2px solid blue; */
+    display: flex;
+    font: var(--button);
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    /* box-shadow: inset 4px 0 0 var(--primary); */
+    block-size: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.main-item [class^="icon-"]{
+    font-size: 1.5rem;
+}
+
+/* .main-item a:hover{
+    text-decoration: none;
+    box-shadow: inset 4px 0 0 var(--primary);
+} */
+
+.main-item.is-active a {
+    color: var(--gray60);
+    box-shadow: inset 4px 0 0 var(--primary);
+}

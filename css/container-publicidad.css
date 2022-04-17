@@ -1,4 +1,4 @@
-.advertising{
+.reserva{
     padding-block-start: 2rem;
     padding-inline-start: 0.5rem;
     padding-inline-end: 0.5rem;
@@ -10,13 +10,13 @@
 
 
 
-.advertising img{
+.reserva img{
     inline-size: calc(100%-1rem);
     border: 1px solid red;
 }
 
 
-.advertising .image-2{
+.reserva .image-2{
     height: 31.25rem;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
