@@ -17,10 +17,7 @@
     font-size: 1.5rem;
 }
 
-/* .main-item a:hover{
-    text-decoration: none;
-    box-shadow: inset 4px 0 0 var(--primary);
-} */
+
 
 .main-item.is-active a {
     color: var(--gray60);

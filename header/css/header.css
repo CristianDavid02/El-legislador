@@ -1,0 +1,44 @@
+@import './search.css';
+
+
+.header{
+    /* border-block-end: 1px solid red; */
+    height: 4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    background: var(--gray50);
+    align-items: center;
+    position: relative;
+    /* padding-inline-start: 2rem; */
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.header-title{
+    position: absolute;
+    left: 0;
+    color: var(--white);
+    /* border: 2px solid red; */
+    padding-inline-start: 2rem;
+    margin: 0;
+}
+
+
+.container-header{
+    height: 4rem;
+    width: 100vw;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: sticky;
+}
+
+
+
+
+
+
