@@ -4,6 +4,7 @@
     font: var(--baseFont);
     margin: 0;
     height: 100%;
-    /* border: 1px solid red; */
-    position: absolute;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
 }

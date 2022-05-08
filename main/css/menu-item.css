@@ -1,12 +1,10 @@
 
 
 .main-item a{
-    /* border: 2px solid blue; */
     display: flex;
     font: var(--button);
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.5rem;
-    /* box-shadow: inset 4px 0 0 var(--primary); */
     block-size: 2rem;
     align-items: center;
     gap: 0.5rem;
@@ -25,4 +23,12 @@
 .main-item.is-active a {
     color: var(--gray60);
     box-shadow: inset 4px 0 0 var(--primary);
+}
+
+@media screen and (max-width: 15.625rem) {
+
+    .main-item span{
+        font-size: 0.8rem;
+    }
+
 }

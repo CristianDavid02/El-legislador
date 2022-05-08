@@ -59,9 +59,29 @@
     transition: 0.3s;
 }
 
-.iframe-main{
-    height:100%;
-    position: static;
-    
+
+.main-2{
+    display: flex;
+    box-sizing: border-box;
+    inline-size: 100%;
+    block-size: 100%;
 }
 
+@media screen and (max-width: 81.25rem) {
+
+    .container-grid{
+        grid-template-columns: 15.625rem 4fr 1fr;
+    }
+
+
+    .container-gridTitle .grid-title{
+        font-size: 1.3rem;
+        
+    }
+
+    .container-gridDescription .grid-description{
+        font-size: 0.8rem;
+    
+    }
+
+}

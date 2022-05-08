@@ -7,3 +7,15 @@
     text-decoration: underline;
     color: var(--gray60);
 }
+
+
+@media screen and (max-width: 15.625rem) {
+
+    .link{
+        font-size: 0.75rem;
+    }
+
+    .main-summary{
+        font-size: 0.9rem;
+    }
+}

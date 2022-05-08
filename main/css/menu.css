@@ -1,5 +1,9 @@
 @import "./menu-item.css";
 
+
+.main-codigoTrabajo{
+    padding-inline-end: 1rem;
+}
 .main{
     margin-block-end: 1rem;
 }
@@ -10,42 +14,38 @@
 }
 
 .container-main{
-    padding-inline-start: 1rem;
-    padding-inline-end: 1rem;
-    padding-block-start: 3rem;
+    padding-block-start: 2rem;
     display: flex;
     gap: 1.5rem;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* border: 1px solid red; */
-    background: var(--white);
-    
+    box-sizing: border-box;
+    padding-inline: 0.5rem;
+    position: sticky;
+    top: 4rem;
 }
-
-/* .main-list a{
-    border: 1px solid orange;
-} */
 
 .main-title{
     color: var(--gray60);
     font: var(--bold);
-    font-size: 1.3rem;
-    /* border: 1px solid red; */
+    font-size: 1.5rem;
     position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0;
+
    
 
 }
 
-.main-title::before, .main-title::after{
+.main-title::before,
+.main-title::after{
 
     content: '';
-    position: absolute;
     color: var(--gray60);
-    width: 3.125rem;
+    width: 2rem;
     height: 0.1875rem;
     background-color: currentColor;
-    top: 0.5em;
     
     
 }
@@ -68,5 +68,21 @@
     box-shadow: inset 4px 0 0 var(--primary);
     color: var(--gray60);
     cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 15.625rem) {
+
+    .main-title{
+        font-size: 1.3rem;
+       
+    }
+    
+    .main-title::before, .main-title::after{
+        width: 0.9rem;
+    
+    }
+
 }
 

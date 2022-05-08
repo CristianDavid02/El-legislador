@@ -2,11 +2,6 @@
 @import './fonts.css';
 @import './button.css';
 @import './body.css';
-@import './header.css';
-@import './home-title.css';
-@import './container-codes.css';
-@import './container-grid.css';
-@import './container-publicidad.css';
 @import "./link.css";
 @import "./menu.css";
 @import "./main-artice.css";
@@ -32,3 +27,6 @@
     --button: bold 0.875rem/1rem var(--basefontFamily);
     --small: normal 0.75em/normal var(--basefontFamily);
 }
+
+
+
