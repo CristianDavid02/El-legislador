@@ -55,7 +55,8 @@
     cursor: pointer;
     /* background: var(--gray30); */
 }
-.container-gridCodes:hover .containerCode-cover button, .containerCode:focus-within .containerCode-cover button{
+.container-gridCodes:hover .containerCode-cover button,
+.containerCode:focus-within .containerCode-cover button{
     transform: translateY(0);
     opacity: 1;
     cursor: pointer;

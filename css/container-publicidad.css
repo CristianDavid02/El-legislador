@@ -6,17 +6,5 @@
     flex-direction: column;
     gap: 2rem;
     box-sizing: border-box;
-}
-
-
-
-.reserva img{
-    inline-size: calc(100%-1rem);
-    border: 1px solid red;
-}
-
-
-.reserva .image-2{
-    height: 31.25rem;
-    /* border: 2px solid yellowgreen; */
+    min-inline-size: 4rem;
 }

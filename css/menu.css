@@ -1,6 +1,6 @@
 @import "./menu-item.css";
 
-.main{
+/* .main{
     margin-block-end: 1rem;
 }
 .main-list{
@@ -16,9 +16,7 @@
     display: flex;
     gap: 1.5rem;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* border: 1px solid red; */
     background: var(--white);
     
     
@@ -30,7 +28,6 @@
     color: var(--gray60);
     font: var(--bold);
     font-size: 1.3rem;
-    /* border: 1px solid red; */
     position: relative;
    
 
@@ -67,5 +64,12 @@
     box-shadow: inset 4px 0 0 var(--primary);
     color: var(--gray60);
     cursor: pointer;
+} */
+
+.iframe-main{
+    position: sticky;
+    top: 4rem;
+    inline-size: 100%;
+    box-sizing: border-box;
 }
 

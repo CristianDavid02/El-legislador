@@ -1,17 +1,5 @@
 @import './search.css';
 
-
-
-
-/* .header-title{
-    position: absolute;
-    left: 0;
-    color: var(--white);
-    border: 2px solid red;
-    padding-inline-start: 2rem;
-} */
-
-
 .container-header{
     height: 4rem;
     width: 100%;
