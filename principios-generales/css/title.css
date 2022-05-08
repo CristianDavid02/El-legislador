@@ -9,6 +9,7 @@
     position: sticky;
     display: block;
     top: 4rem;
+    background: var(--white);
 }
 
 .code-articleTitle{
