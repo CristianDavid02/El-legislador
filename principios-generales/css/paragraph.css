@@ -1,0 +1,7 @@
+.code-paragraph{
+    margin: 0;
+    padding: 0;
+    color: var(--gray60);
+    text-align: justify;
+    margin-block-end: 2rem;
+}

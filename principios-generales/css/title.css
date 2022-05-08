@@ -1,0 +1,20 @@
+.code-titleGeneral{
+    color: var(--gray60);
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-block-end: 3rem;
+    align-self: center;
+    position: sticky;
+    display: block;
+    top: 4rem;
+}
+
+.code-articleTitle{
+    margin: 0;
+    padding: 0;
+    color: var(--gray50);
+    font-size: 1rem;
+    padding-block-end: 0.3rem;
+}
