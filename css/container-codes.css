@@ -1,25 +1,7 @@
-/* .containerMain-code{
-    display: flex;
-    flex: 1;
-    border: 1px solid green;
-    gap: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    max-inline-size: 500px;
-    block-size: 700px;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    right: 0;
-    position: absolute;
-    
-    
-} */
 .containerCode{
-    /* border: 2px solid green; */
     display: flex;
     padding: 1rem;
     flex: 1;
-    /* background: var(--gray40); */
     box-sizing: border-box;
     border-radius: 0.25rem;
     max-inline-size: 13.75rem;
@@ -35,7 +17,6 @@
     vertical-align: middle;
     border-radius: 0.75rem;
     overflow: hidden;
-    /* border: 1px solid yellow; */
     position: relative;
 }
 
@@ -53,7 +34,6 @@
 
 .containerCode:hover{
     cursor: pointer;
-    /* background: var(--gray30); */
 }
 .container-gridCodes:hover .containerCode-cover button,
 .containerCode:focus-within .containerCode-cover button{

@@ -1,9 +1,9 @@
-@import '/header/css/icons.css';
-@import '/header/css/fonts.css';
-@import '/header/css/button.css';
-@import '/header/css/body.css';
-@import '/header/css/header.css';
-@import "/header/css/link.css";
+@import './icons.css';
+@import './fonts.css';
+@import './button.css';
+@import './body.css';
+@import './header.css';
+@import "./link.css";
 
 
 
