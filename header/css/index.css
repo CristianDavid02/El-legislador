@@ -1,15 +1,9 @@
-@import './icons.css';
-@import './fonts.css';
-@import './button.css';
-@import './body.css';
-@import './header.css';
-@import './home-title.css';
-@import './container-codes.css';
-@import './container-grid.css';
-@import './container-publicidad.css';
-@import "./link.css";
-@import "./menu.css";
-@import "./main-artice.css";
+@import '/header/css/icons.css';
+@import '/header/css/fonts.css';
+@import '/header/css/button.css';
+@import '/header/css/body.css';
+@import '/header/css/header.css';
+@import "/header/css/link.css";
 
 
 
