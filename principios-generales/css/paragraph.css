@@ -1,6 +1,18 @@
+.principios-generales,
+.capitulo1,
+.capitulo2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .code-paragraph{
     margin: 0;
     padding: 0;
     color: var(--gray60);
     text-align: justify;
+}
+
+.article:last-child{
+    padding-block-end: 3rem;
 }
