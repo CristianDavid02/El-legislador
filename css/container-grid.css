@@ -1,14 +1,12 @@
 .container-grid{
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: minmax(15.625rem, 1fr) 4fr 1fr;
     grid-template-rows: 100%;
-    min-block-size: calc(100vh - 4rem);
-    background: var(--background);
+    block-size: calc(100vh - 4rem);
+
 }
 
 .container-gridCodes{
-    /* border: 2px solid purple;  */
     display: grid;
     grid-template-columns: 13.75rem auto;
     grid-template-rows: 4rem 1fr;
@@ -24,7 +22,6 @@
 
 .container-gridTitle{
     grid-area: title;
-    /* border: 2px solid orange; */
     display: flex;
     align-items: center;
     font-size: 1rem;
@@ -40,7 +37,6 @@
 
 
 .container-gridDescription{
-    /* border: 3px solid forestgreen;  */
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
     color: var(--gray50);
@@ -57,7 +53,8 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    /* overflow: scroll; */
+    overflow: scroll;
+    
 }
 
 .container-gridCodes:hover{

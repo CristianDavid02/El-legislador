@@ -1,13 +1,13 @@
-@import '../../css/icons.css';
-@import '../../css/fonts.css';
-@import '../../css/button.css';
-@import '../../css/body.css';
-@import '../../css/header.css';
+@import './icons.css';
+@import './fonts.css';
+@import './button.css';
+@import './body.css';
+@import './header.css';
 @import './container-grid.css';
-@import '../../css/container-publicidad.css';
-@import '../../css/link.css';
-@import '../../css/menu.css';
-@import '../../css/main-artice.css';
+@import './container-publicidad.css';
+@import './link.css';
+@import './menu.css';
+@import './main-artice.css';
 @import './articles.css';
 
 
