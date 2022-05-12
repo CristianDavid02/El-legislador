@@ -1,6 +1,8 @@
 .principios-generales,
 .capitulo1,
-.capitulo2{
+.capitulo2,
+.capitulo3,
+.capitulo4{
     display: flex;
     flex-direction: column;
     gap: 2rem;
