@@ -10,11 +10,14 @@
     position: relative;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 
 }
 
-
+.header i{
+    display: none;
+}
 
 .header-title{
     position: absolute;
@@ -37,6 +40,53 @@
 
 
 
+@media screen and (max-width:31.25rem) {
 
+    .header{
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-start;
+    }
+
+    .header .header-title{
+        position: relative;
+        padding-inline-start: 0rem;
+    }
+
+    .container-search{
+        width: 40px;
+        background: transparent;
+        /* border: 2px solid red; */
+        padding-inline-end: 1rem;
+        padding-block: 0;
+        margin-block: 0;
+        position: absolute;
+        right: 0;
+        
+    }
+
+
+    .container-search .search{
+        background: transparent;
+        right: 0;
+
+    }
+
+    .container-search i{
+        font-size: 1.8rem;
+        color: var(--white);
+    }
+
+    .header .header-title h1{
+        font-size: 1.8rem;
+    }
+
+    .header i{
+        display: block;
+        font-size: 1.8rem;
+        color: var(--white);
+        padding-inline-start: 0.5rem;
+    }
+}
 
 
